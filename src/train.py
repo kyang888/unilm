@@ -20,9 +20,10 @@ import numpy as np
 from pytorch_pretrained_bert.tokenization import BertTokenizer, WhitespaceTokenizer
 from pytorch_pretrained_bert.modeling import BertForPreTrainingLossMask
 from pytorch_pretrained_bert.optimization import BertAdam, warmup_linear
-from data_loader import TrainDataLoader, Preprocess4Seq2seq
+from data_loader import TrainDataLoader
+from preprocess import Preprocess4Seq2seq
 from tensorboardX import SummaryWriter
-
+from arg import get_arg
 
 import torch.distributed as dist
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
