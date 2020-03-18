@@ -14,7 +14,7 @@ train.py  \
 --data_dir $DATA_DIR/pretrain \
 --vocab_path   $ROOT_DIR/vocab.txt \
 --config_path $ROOT_DIR/bert_config.json \
---model_output_dir $OUTPUT_DIR/model_output\pretrain \
+--model_output_dir $OUTPUT_DIR/model\pretrain \
 --log_dir  $OUTPUT_DIR/log \
 --model_recover_path $ROOT_DIR/bert-base-chinese/pytorch_model.bin \
 --max_seq_length 512 \
