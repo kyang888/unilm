@@ -1,0 +1,11 @@
+python preprocess.py --raw_dir E:\py-workspace\summary\data\raw ^
+--raw_file baike.txt+wiki.json+news2016.json ^
+--preprocessors BaiDuPreprocessor+WikiPreprocessor+News2016Preprocessor ^
+--src_tgt_dir E:\py-workspace\summary\data\src_tgt  ^
+--tokenized_dir E:\py-workspace\summary\data\tokenized_dir ^
+--processed_dir E:\py-workspace\summary\data\processed_dir ^
+--bert_model E:\\py-workspace\\summary\\bert-large-chinese-pretrained-model ^
+--max_pred 48 ^
+--mask_prob 0.15 ^
+--new_segment_ids ^
+--new_pos_ids
