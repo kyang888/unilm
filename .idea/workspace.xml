@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21616d7-0058-4ba7-8b7e-670c5c7b78f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +42,14 @@
         <counts>
           <entry key="bat" value="424" />
           <entry key="dummy" value="31" />
-          <entry key="md" value="307" />
+          <entry key="md" value="311" />
           <entry key="py" value="3195" />
           <entry key="sh" value="421" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="307" />
+          <entry key="Markdown" value="311" />
           <entry key="PLAIN_TEXT" value="876" />
           <entry key="Python" value="3195" />
         </counts>
@@ -67,12 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="114">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
+                <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -137,10 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5833">
+            <state relative-caret-position="-6061">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#1#44#0" expanded="true" />
@@ -209,12 +209,12 @@
         <option value="$PROJECT_DIR$/src/run.bat" />
         <option value="$PROJECT_DIR$/../summary/data/raw/sample.py" />
         <option value="$PROJECT_DIR$/src/run.sh" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/data_loader.py" />
         <option value="$PROJECT_DIR$/src/preprocess.py" />
         <option value="$PROJECT_DIR$/src/utils.py" />
         <option value="$PROJECT_DIR$/src/args.py" />
         <option value="$PROJECT_DIR$/src/train.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -422,16 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -473,11 +463,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5833">
+        <state relative-caret-position="-6061">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#1#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
